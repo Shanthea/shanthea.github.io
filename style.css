@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    justify-content: flex-start;
+    justify-content: left;
+}
+
+#logo{
+    width: 260px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#person{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+nav{
+    color: azure;
+    font-variant-caps: all-small-caps; /* or text-transform: uppercase; */
+    font-size: 1.5em;
+    font-weight: 500;
+    flex: auto;
+    flex-direction: row;
+}
+
+
+button {
+    color: rgb(255, 205, 3);
+    background-color:  rgba(0, 0, 0, 0);
+    font-size: medium;
+    font-variant-caps: all-small-caps;
+    flex-direction: row;
+}
+
+.achievements h2{
+    color:goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    justify-content: right;
+
+}
