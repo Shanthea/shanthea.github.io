@@ -1,42 +1,77 @@
 body {
-    background-color: black;
+    background-color: #000000;
+    background-image: url("Shanthea-Website-Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
 }
 
-.container {
-    font-family: Arial, Helvetica, sans-serif;
+.title h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 6em;
     color: aliceblue;
-    justify-content: flex-start;
-    justify-content: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+#person{
+    width: 400px;
+    height: auto;
+    margin: 0 right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+.headercontent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
 }
 
 #logo{
-    width: 260px;
+    width: 600px;
     height: auto;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#person{
-    width: 800px;
-    height: auto;
-    margin: 0 auto;
+    margin: 0 left;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
 }
 
 
-nav{
-    color: azure;
-    font-variant-caps: all-small-caps; /* or text-transform: uppercase; */
+.navbar{
+    background-color:rgba(0, 0, 0, 0);
+    color:goldenrod;
+    font-variant-caps: all-small-caps;
     font-size: 1.5em;
     font-weight: 500;
-    flex: auto;
-    flex-direction: row;
+    position: absolute;
+    top: 0;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
+.navbar img{
+    width: 111px;
+    height: auto;
+    justify-content: flex-start;
+}
+
+.navbar a{
+    color:whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.navbar a:hover{
+    color:rgb(255, 231, 133)
+}
 
 button {
     color: rgb(255, 205, 3);
@@ -46,10 +81,13 @@ button {
     flex-direction: row;
 }
 
-.achievements h2{
-    color:goldenrod;
-    font-family: Arial, Helvetica, sans-serif;
+.tagline h2{
+    color:whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     justify-content: flex-start;
-    justify-content: right;
+    justify-content: left;
+    margin-top: 0%;
+    align-content: flex-start;
 
 }
