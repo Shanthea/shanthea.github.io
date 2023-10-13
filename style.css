@@ -39,6 +39,13 @@ body {
     align-content: flex-end;
 }
 
+#logo2 {
+    width: 16%;
+    height: auto;
+    position: absolute;
+    left: 42%;
+}
+
 #sitesearch placeholder {
     color: purple;
 }
@@ -70,7 +77,7 @@ body {
     width: auto;
     height: 110px;
     margin: 0px 30px 30px 30px;
-align-self: baseline;
+    align-self: baseline;
 }
 
 #expression{
@@ -125,4 +132,38 @@ button {
     /*display: flex;
     flex-direction: row-reverse;
     align-content: flex-end;*/
+}
+
+#about_header {
+    color: whitesmoke;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .timeline {
+    background-color: pink;
+    flex: 1 300;
+}
+
+main .photos {
+    background-color: whitesmoke;
+    flex: 2 800;
+}
+
+main .highlights {
+    background-color: powderblue;
+    flex: 1 300;
+}
+
+#about_header {
+    width: 12%;
+    height: auto;
+    position: absolute;
+    left: 47%;
 }
