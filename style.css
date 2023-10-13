@@ -1,28 +1,46 @@
 body {
-    background-color: #000000;
-    background-image: url("Shanthea-Website-Background.png");
+    background-image: url("bkgd.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #000000;
     font-family: 'Poppins', sans-serif;
 }
 
 .title h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 6em;
+    font-size: 8em;
     color: aliceblue;
     margin: 0px;
-    padding: 0px;
+    position: relative;
+    left: 40px;
+    padding-top: 100px;
 }
 
 
 #person{
-    width: 500px;
+    width: 380px;
     height: auto;
-    display: flex;
+    position: relative;
+    top: 120px; left: 0px; right: 0px;
+    padding-right: 20%;
+    /*display: flex;
     justify-content: flex-end;
-    align-items: right;
+    align-items: right;*/
+}
+
+#logo {
+    width: 700px;
+    height: auto;
+    position: relative;
+    top: 160px; left: 40px;
+    display: flex;
+    align-content: flex-end;
+}
+
+#sitesearch placeholder {
+    color: purple;
 }
 
 .headercontent {
@@ -31,16 +49,6 @@ body {
     align-items: center;
     margin: 10px;
 }
-
-#logo{
-    width: 600px;
-    height: auto;
-    margin: 0 left;
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-end;
-}
-
 
 .navbar{
     background-color:rgba(0, 0, 0, 0);
@@ -69,11 +77,16 @@ align-self: baseline;
     height: 90px;
     width: auto;
 }
+
 .navbar a{
     color:whitesmoke;
     text-decoration: none;
     align-self: baseline;
     margin: 30px;
+}
+
+.navbar input {
+    margin: 20px;
 }
 
 .navbar a:hover{
@@ -92,8 +105,24 @@ button {
     color:whitesmoke;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    justify-content: flex-start;
-    justify-content: left;
+    position: relative;
+    left: 60px; 
     margin: 0%;
+    display: flex;
+    justify-content: left;
     align-content: flex-start;
+}
+
+#showmore {
+    color: black;
+    background-color: whitesmoke;
+    font-family: poppins, sans-serif;
+    font-size: medium;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    left: 70%;
+    /*display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-end;*/
 }
