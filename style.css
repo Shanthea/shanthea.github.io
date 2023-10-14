@@ -73,6 +73,7 @@ body {
     margin-bottom: 60px;
 }
 
+
 .navbar img{
     width: auto;
     height: 110px;
@@ -91,6 +92,8 @@ body {
     align-self: baseline;
     margin: 30px;
 }
+
+
 
 .navbar input {
     margin: 20px;
