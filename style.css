@@ -16,6 +16,12 @@ body {
     position: relative;
     left: 40px;
     padding-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    @media (max-width:600px)
+    {
+    font-size: 4em;
+    }
 }
 
 #person:hover {
@@ -43,10 +49,7 @@ body {
     height: 380px;
     position: relative;
     top: 120px; left: 0px; right: 0px;
-
-
 }
-      
     
 
 #logo {
@@ -55,14 +58,14 @@ body {
     position: relative;
     top: 160px; left: 40px;
     display: flex;
-    align-content: flex-end;
+    align-content: flex-end; 
 }
 
 #logo2 {
     width: 16%;
     height: auto;
     position: absolute;
-    left: 42%;
+    left: 0%;
     margin: 3% auto;
 }
 
@@ -91,6 +94,9 @@ body {
     justify-content: space-evenly;
     align-items: flex-start;
     margin-bottom: 60px;
+  /*  @media (max-width: 500px) {
+        flex-direction: column;
+    } */
 }
 
 .aboutnav {
